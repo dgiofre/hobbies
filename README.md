@@ -53,7 +53,9 @@ Launch API by Flask (See createAPI) before opening the web page.
 firefox visualize_points.html
 ```
 #### Screenshot
-![Image](/data_vis_webpage/screenshot/0.jpg?raw=true "Web page")
+<div align="center">
+   <img src="/data_vis_webpage/screenshot/0.jpg" width="400px"</img> 
+</div>
 
 
 ## License
