@@ -2,7 +2,7 @@
 ## Creation of an API by Flask (createAPI)
 
 ### Description  
-A GET request to the below URL returns some data points (in JSON format) that changes over time.
+Creation a simple API in which a GET request to the below URL returns some data points (in JSON format) that changes over time.
 
 
 http://127.0.0.1:5300/api/points
