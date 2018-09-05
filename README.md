@@ -33,7 +33,7 @@ Additional python libraries needed
 ```
 
 
-## Web page to visulize data points from restAPI (data_vis_webpage)
+## Web page to visualize data points from restAPI (data_vis_webpage)
 
 ### Description  
 A simple chart to show the coordinates of three points read by an API.
