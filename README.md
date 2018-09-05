@@ -1,8 +1,8 @@
 # Hobbies
-## Creation of an API by Flask (createAPI)
+## Creation of a restAPI by Flask (createAPI)
 
 ### Description  
-Creation a simple API in which a GET request to the below URL returns some data points (in JSON format) that changes over time.
+Creation a simple restAPI in which a GET request to the below URL returns some data points coordinates (in JSON format) that changes over time.
 
 
 http://127.0.0.1:5300/api/points
