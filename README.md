@@ -40,7 +40,7 @@ Additional python libraries needed
 ## Web page to visualize data points from restAPI (data_vis_webpage)
 
 ### Description  
-A simple chart to show the coordinates of three points read by an API.
+A simple chart to show the motion of three dynamic points read by an API.
 
 ### Getting Started
 
