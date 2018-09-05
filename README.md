@@ -2,7 +2,11 @@
 ## Creation of an API by Flask (createAPI)
 
 ### Description  
-A simple chart to show the coordinates of three points read by an API.
+A GET request to the below URL returns some data points (in JSON format) that changes over time.
+
+
+http://127.0.0.1:5300/api/points
+
 
 ### Getting Started
 
@@ -53,4 +57,4 @@ firefox visualize_points.html
 
 
 ## License
-MIT licence
+[MIT licence](https://choosealicense.com/licenses/mit/)
