@@ -18,6 +18,11 @@ Install the python libraries flask and flask-cors
    pip install flask=0.12.2
    pip install flask-cors
 ```
+Additional python libraries needed 
+```
+   pip install json
+   pip install numpy
+```
 
 #### Running
 
