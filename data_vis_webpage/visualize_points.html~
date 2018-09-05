@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Force-Directed Layout</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="visualize_points.css"/>
+    <style> 
+    .button {
+        background-color: #008CBA; /* Blue */
+        border: 2px solid #555555; /* Black */
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        border-radius: 8px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        position: fixed;
+        left: 50%;
+        top: 80%;
+        transform: translate(-50%, -80%);} 
+    .button:active {
+        background-color: #ADD8E6;  /* LightBlue */
+        color: black; 
+        box-shadow: 0 3px #666;
+        transform: translate(-50%, -81%);
+        }
+    div.center {
+    border: 2px solid black; /* Black */
+    color: white;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    }     
+    div.relative {
+    position: fixed;
+    left: 50%;
+    top: 10%;
+    font-size: 40px;
+    transform: translate(-50%, -10%);
+    }
+  </style>
+  </head>
+  <body>
+    <div class="relative"><p>Data Points:<br>Visualization</p></div>
+    <div id="chart" class="center"  ></div>
+    <script type="text/javascript" src="visualize_points.js"></script>
+    <input type="button" class="button" value="SuperRefresh" onClick="window.location.href=window.location.href">
+    <input type="button" class="button" value="Refresh" onClick="updateData()">
+  </body>
+</html>

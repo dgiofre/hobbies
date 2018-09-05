@@ -1,0 +1,30 @@
+/*
+$.getJSON('http://theossrv2.epfl.ch/aiida_assignment2/api/points/points.json', function(data) {
+  console.log(data);
+}, 'jsonp');
+*/
+var spaceData;
+
+function setup()  {
+    createCanvas(200,300)
+    loadJSON("http://theossrv2.epfl.ch/aiida_assignment2/api/points/", gotData);
+}
+function gotData(data) {
+    spaceData = data;
+    alert('Your Json result is: ' + data.circles)
+}
+
+function draw() {
+    background(0);
+    if (spaceData) {
+       for (var i = 0; i < 6; i++)  {
+         fill(255);
+         ellipse(random(width), random(width), 16,16);
+       }
+    }
+}
+/*
+function JsonpCallback(json)  {
+    document.getElementById('summary').innerHTML = json.circles;
+    alert('Your Json result is:  ' + json.circles)
+}*/
