@@ -1,0 +1,15 @@
+Prerequisites
+   sudo apt install python2.7 python-pip
+   pip install flask=0.12.2
+   pip install flask-cors
+   
+   pip install json
+   pip install numpy
+
+Execute:
+
+   cd {path_to_directory}/ex2
+   export FLASK_APP=restapi.py
+   flask run --port=5300
+   
+
