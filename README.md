@@ -1,5 +1,5 @@
 # Hobbies
-## Creation of a restAPI by Flask (createAPI)  iji
+## Creation of a restAPI by Flask (createAPI)
 
 ### Description  
 Creation a simple restAPI in which a GET request to the below URL returns some data points coordinates (in JSON format) that changes over time.
